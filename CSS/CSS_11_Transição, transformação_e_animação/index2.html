@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="PT-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 11 - css</title>
+
+    <style>
+        div.informacoes{
+    width: 200px;
+    height: 200px;
+    background-color: yellow;
+    border-radius: 100px;
+    color: rgba(0, 0, 0, 0);
+}
+
+.informacoes:hover{
+    height: 200px;
+    width: 300px;
+    border-radius: 10px;
+    color: black;
+    transition-property: height, width, border-radius, color;
+    transition-delay:0.5s, 0.5s, 0.5s, 1.5s;
+    transition-duration: 2s;
+    transition-timing-function: ease;
+}  
+
+    </style>
+
+</head>
+<body>
+    <div class="informacoes">
+        <div>
+            <h1>Titulo do produto</h1>
+            <p>Lorem Ipsum is simply dummy text</p>
+        </div>
+    </div>
+</body>
+</html>

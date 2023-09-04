@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    
+</head>
+<body>
+
+    <form action="http://mach1.great-site.net/cadastroRecruta.php" method="post" enctype="multipart/form-data">
+      
+        <h2> Aliste-se </h2>
+
+        <label>Seu e-mail
+            <br>
+            <input type="email" placeholder="seuemail@email.com" name="email">
+        </label>
+
+    <br><br>
+
+        <label>Senha
+            <br>
+            <input type="password" placeholder="Crie uma senha" name="senha">
+        </label>
+
+    <br><br>
+    
+        <label>Nome completo
+            <br>
+            <input type="text" placeholder="Informe o seu nome" name="nomeCompleto">
+        </label>
+
+    <br><br>
+
+    <label>CPF (Apenas números)
+        <br>
+        <input type="text" placeholder="00000000000" name="cpf">
+    </label>
+
+    <br><br>
+
+    <label>RG (Apenas números)
+        <br>
+        <input type="text" placeholder="00000000000" name="rg">
+    </label>
+
+    <br><br>
+
+    <label>Data de Nascimento
+        <br>
+        <input type="date" placeholder="Data de nascimento" name="nascimento">
+    </label>
+
+    <br><br>
+
+    <fieldset>
+        <legend>Necessidades especiais</legend>
+        <br>
+         <input type="radio" name="necessidadesEspeciais" value="Sim">Sim
+        <br>
+        <br>
+         <input type="radio" name="necessidadesEspeciais" value="Não">Não
+    </fieldset>
+
+    <br><br>
+
+    <label>Estado de residência</label>
+    <br>
+    <select name="estado" id="" value="estado">
+        <option value="">Selecione seu estado</option>
+        <option value="AC">Acre</option>
+        <option value="AL">Alagoas</option>
+        <option value="AP">Amapá</option>
+        <option value="AM">Amazonas</option>
+        <option value="BA">Bahia</option>
+        <option value="CE">Ceará</option>
+        <option value="ES">Espírito Santo</option>
+        <option value="GO">Goiás</option>
+        <option value="MA">Maranhão</option>
+        <option value="MT">Mato grosso</option>
+        <option value="MS">Mato grosso do Sul</option>
+        <option value="MG">Minas Gerais</option>
+        <option value="PA">Pará</option>
+        <option value="PB">Paraíba</option>
+        <option value="PR">Paraná</option>
+        <option value="PE">Pernambuco</option>
+        <option value="PI">Piauí</option>
+        <option value="RJ">Rio de Janeiro</option>
+        <option value="RN">Rio Grande do Norte</option>
+        <option value="RS">Rio Grande do Sul</option>
+        <option value="RO">Rondônia</option>
+        <option value="RR">Roraima</option>
+        <option value="SC">Santa Catarina</option>
+        <option value="SP">São Paulo</option>
+        <option value="SE">Sergipe</option>
+        <option value="TO">Tocantins</option>
+    </select>
+    
+    <br><br>
+     
+    <fieldset>
+        <legend>Especialização desejada</legend>
+        <br>
+        <input type="checkbox" name="especializacao1" value="Back-end">Mecânica da aeronaves (Back-end)
+        <br><br>
+        <input type="checkbox" name="especializacao2" value="Front-end">Montagem da aeronaves (Front-end)
+        <br><br>
+        <input type="checkbox" name="especializacao3" value="FullStack">Engenheiro de aeronaves (FullStack)
+        <br><br>
+        <input type="checkbox" name="especializacao4" value="Tester">Piloto(Tester)
+        <br><br>
+        <input type="checkbox" name="especializacao5" value="Scrum Master">Operador de trafego aéreo (Scrum Master)
+    </fieldset>
+    
+    <br><br>
+     
+    <div>
+        <br>
+    adicione uma foto: <input type="file" name="Foto">
+    </div>
+
+    <br><br>
+
+    <input type="submit">
+    
+
+    </form>
+
+</body>
+</html>

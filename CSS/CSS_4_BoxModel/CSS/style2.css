@@ -1,0 +1,10 @@
+div.principal {
+    width: 320px;
+    border: 5px solid blue;
+}
+.principal div {
+    margin: 20px 0;
+    padding: 5px 10px;
+    border: 2px solid red;
+    border-radius: 20px 0 20px 0;
+}

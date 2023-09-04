@@ -1,0 +1,8 @@
+div [class$="Sus"]{
+    background-color: black;
+    color: #fff;
+    width: 50px;
+    height: 125px;
+    margin-left: -26px;
+    margin-right: -26px;
+}
